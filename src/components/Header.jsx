@@ -27,6 +27,7 @@ const Header = () => {
               >
                 <Link
                   href={link.path}
+                  
                   className="px-[24px] h-[100%] flex items-center"
                 >
                   {link.name}

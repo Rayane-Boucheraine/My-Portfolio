@@ -18,6 +18,7 @@ const Footer = () => {
               >
                 <Link
                   href={link.link}
+                  target="_blank"
                   className="px-[16px] text-[18px] h-[100%] flex items-center"
                 >
                   {link.icon}
@@ -30,6 +31,7 @@ const Footer = () => {
           <li className="h-[100%] relative text-[#607B96] border-l-[2px] border-[#1E2D3D] duration-300 hover:text-[#FFF] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:bg-[#FEA55F] after:transition-all after:duration-300">
             <Link
               href="https://github.com/Rayane-Boucheraine"
+              target="_blank"
               className="px-[24px] h-[100%] flex items-center gap-4"
             >
               <span>@Rayane-Boucheraine</span>{" "}

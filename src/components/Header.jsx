@@ -16,9 +16,9 @@ const Header = () => {
       </Link>
       <ul className="flex justify-between w-[80%] ">
         <div className="flex">
-          {header_links.map((link) => {
+          {header_links.map((link, index) => {
             return (
-              <li
+              <li key={index}
                 className={`relative text-[#607B96]  border-r-[2px] border-[#1E2D3D] duration-300 hover:text-[#FFF] after:absolute after:bottom-0 after:left-0 after:h-[3px] after:bg-[#FEA55F] after:transition-all after:duration-300 ${
                   path === link.path
                     ? "text-[#FFF] after:w-[100%]"

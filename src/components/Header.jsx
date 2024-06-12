@@ -10,11 +10,11 @@ const Header = () => {
     <header className="flex h-[7%] border-[2px] border-[#1E2D3D]">
       <Link
         href="/"
-        className="text-[#607B96] w-[20%] flex items-center px-[16px] border-r-[2px] border-[#1E2D3D]"
+        className="text-[#607B96] w-64 flex items-center px-[16px] border-r-[2px] border-r-[#1E2D3D]"
       >
         Rayane-Boucheraine
       </Link>
-      <ul className="flex justify-between w-[80%] ">
+      <ul className="flex justify-between flex-1">
         <div className="flex">
           {header_links.map((link, index) => {
             return (

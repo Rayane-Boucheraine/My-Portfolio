@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="flex h-[7%] border-[2px] border-[#1E2D3D]">
-      <span className="text-[#607B96] w-[10%] flex items-center px-[16px] border-r-[2px] border-[#1E2D3D]">
+      <span className="text-[#607B96] w-[153px] flex items-center px-[16px] border-r-[2px] border-[#1E2D3D]">
         Find me in:
       </span>
       <ul className="flex justify-between w-[90%]">
